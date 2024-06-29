@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="100dp"
+      android:text="REGISTRE SU HORARIO"
+      android:textSize="30sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/btnInicioJornada"
+      android:layout_width="320dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="70dp"
+      android:text="Inicio Jornada"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+  <Button
+      android:id="@+id/btnFinJornada"
+      android:layout_width="320dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="70dp"
+      android:text="Fin Jornada"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnInicioJornada" />
+
+  <Button
+      android:id="@+id/btnGenerarReporte"
+      android:layout_width="320dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="70dp"
+      android:text="Generar Reporte"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnFinJornada" />
+
+  <Button
+      android:id="@+id/btnCerrar"
+      android:layout_width="320dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="70dp"
+      android:text="Cerrar sesión"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnGenerarReporte" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

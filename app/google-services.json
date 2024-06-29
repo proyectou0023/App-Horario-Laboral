@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "199354954241",
+    "project_id": "apphorario-fbd90",
+    "storage_bucket": "apphorario-fbd90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199354954241:android:5863a7ab1f2950559c4600",
+        "android_client_info": {
+          "package_name": "com.company.apphorariolaboral"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0LF5W_cC3sr2V4D6BSnLBZe7wa6ds-nA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
